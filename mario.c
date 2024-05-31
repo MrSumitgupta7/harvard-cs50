@@ -15,11 +15,14 @@ int main(void)
 }
 
 {
-    constant int n = get_int("Size Or Dimension:");
-    while (n < 1)
+     int n ;
+
+do
 {
-    n=get_int("Size : ");
+    n = get_int("Size:");
+
 }
+while (n<1);
     for ( int i =0; i<n; i++)
 
     {
