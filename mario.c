@@ -1,3 +1,4 @@
+#include<cs50.>
 #include<stdio.h>
 
 int main(void)
@@ -14,7 +15,7 @@ int main(void)
 }
 
 {
-    constant int n = 5;
+    constant int n = get_int("Size Or Dimension:");
     for ( int i =0; i<n; i++)
 
     {
