@@ -16,6 +16,10 @@ int main(void)
 
 {
     constant int n = get_int("Size Or Dimension:");
+    while (n < 1)
+{
+    n=get_int("Size : ");
+}
     for ( int i =0; i<n; i++)
 
     {
